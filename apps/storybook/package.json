@@ -3,11 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "PORT=6000 next dev",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook"
   },
   "dependencies": {
     "@criptomaniacos-ui/tokens": "*",
@@ -26,6 +25,7 @@
     "@storybook/addon-links": "^6.5.16",
     "@storybook/addons": "^6.5.16",
     "@storybook/builder-vite": "^0.4.2",
+    "@storybook/cli": "^6.5.16",
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
     "@storybook/theming": "^6.5.16",
@@ -38,5 +38,8 @@
     "eslint-config-custom": "workspace:*",
     "typescript": "^4.5.3",
     "vite": "^4.1.1"
+  },
+  "engines": {
+    "node": "16"
   }
 }
