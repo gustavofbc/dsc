@@ -7,7 +7,7 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@criptomaniacos-ui/tokens": "*",
