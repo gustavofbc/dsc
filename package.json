@@ -7,12 +7,11 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "turbo run build",
     "dev": "turbo run dev",
     "storybook": "export NODE_OPTIONS=--openssl-legacy-provider && turbo run storybook",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "build": "build-storybook -s public",
-    "serve-storybook": "serve storybook-static"
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
