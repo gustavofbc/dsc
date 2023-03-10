@@ -1,11 +1,24 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalDependencies": ["**/.env.*local"],
+  "globalDependencies": [
+    "**/.env.*local"
+  ],
   "pipeline": {
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["dist/**", ".next/**"],
-      "env": ["NODE_ENV=production", "CADEMI_TOKEN", "N8N_TOKEN", "FAUNA_ADMIN_KEY"]
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "dist/**",
+        ".next/**",
+        "storybook-static/**"
+      ],
+      "env": [
+        "NODE_ENV=production",
+        "CADEMI_TOKEN",
+        "N8N_TOKEN",
+        "FAUNA_ADMIN_KEY"
+      ]
     },
     "lint": {
       "outputs": []

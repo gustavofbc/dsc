@@ -4,11 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "PORT=6000 next dev",
-    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build": "build-storybook"
   },
   "dependencies": {
     "@criptomaniacos-ui/tokens": "*",
