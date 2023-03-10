@@ -11,7 +11,7 @@
     "storybook": "export NODE_OPTIONS=--openssl-legacy-provider && turbo run storybook",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "build-storybook": "build-storybook -s public",
+    "build": "build-storybook -s public",
     "serve-storybook": "serve storybook-static"
   },
   "devDependencies": {
