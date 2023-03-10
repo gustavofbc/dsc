@@ -1,0 +1,43 @@
+{
+  "name": "storybook",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "PORT=6000 next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@criptomaniacos-ui/tokens": "*",
+    "next": "13.1.6",
+    "polished": "^4.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tsconfig": "workspace:*",
+    "ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/addons": "^6.5.16",
+    "@storybook/builder-vite": "^0.4.2",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/theming": "^6.5.16",
+    "@types/node": "^18.13.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^3.1.0",
+    "babel-loader": "^9.1.2",
+    "eslint": "8.34.0",
+    "eslint-config-custom": "workspace:*",
+    "typescript": "^4.5.3",
+    "vite": "^4.1.1"
+  }
+}
