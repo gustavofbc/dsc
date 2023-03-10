@@ -8,7 +8,7 @@
     "lint": "eslint *.ts*"
   },
   "devDependencies": {
-    "@criptomaniacos-ui/tokens": "*",
+    "tokens": "workspace:*",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.6",
     "eslint": "^8.33.0",

@@ -9,7 +9,7 @@
     "build": "build-storybook"
   },
   "dependencies": {
-    "@criptomaniacos-ui/tokens": "*",
+    "tokens": "workspace:*",
     "next": "13.1.6",
     "polished": "^4.2.2",
     "react": "18.2.0",
