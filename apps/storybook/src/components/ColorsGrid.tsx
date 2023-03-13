@@ -1,4 +1,4 @@
-import { colors } from '@criptomaniacos-ui/tokens';
+import { colors } from 'tokens';
 import { getContrast } from 'polished';
 
 export function ColorsGrid() {

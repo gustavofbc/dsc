@@ -9,7 +9,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "storybook": "export NODE_OPTIONS=--openssl-legacy-provider && turbo run storybook",
+    "storybook": "turbo run storybook",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },

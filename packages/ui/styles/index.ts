@@ -6,7 +6,7 @@ import {
     lineHeights,
     radii,
     space,
-} from '@criptomaniacos-ui/tokens'
+} from 'tokens'
 
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
