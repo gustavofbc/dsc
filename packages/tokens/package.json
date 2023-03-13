@@ -13,6 +13,7 @@
   "author": "gustavo",
   "license": "ISC",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
     "eslint-config-custom": "*",
     "tsconfig": "*",
     "tsup": "^6.5.0",

@@ -1,2 +1,0 @@
-import{H as o}from"./index-fd3ca85a.js";import"./index-0f9fd905.js";import"./index-63eeef1a.js";import"./es.object.get-own-property-descriptor-366a41fe.js";const r={title:"Typography/Heading",component:o,args:{size:"md",children:"Títulos"}},i={},n={args:{children:"Títulos com tag H1",as:"h1"}},m=["Base","CustomTag"];export{i as Base,n as CustomTag,m as __namedExportsOrder,r as default};
-//# sourceMappingURL=Heading.stories-057a0cf9.js.map
